@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms</title>
+</head>
+<body>
+<form action="https://tests.fomenko.top/echo/index.php" method="get">
+  <fieldset>
+    <legend>Регистрация</legend>
+    <div>
+      <label for="email">Email</label>
+      <input id="email" type="text" name="email" placeholder="Email" required>
+    </div>
+    <div>
+      <label for="password1">Password</label>
+      <input id="password1" type="password" name="password" minlength="4" maxlength="20" placeholder="Пароль" required>
+    </div>
+    <div>
+      <label for="password2">Password</label>
+      <input id="password2" type="password" name="confirm password" minlength="4" maxlength="20" placeholder="Подтвердите пароль">
+    </div>
+  </fieldset>
+
+  <fieldset>
+    <legend>Действия</legend>
+    <div>
+      <button type="submit">Сохранить форму</button>
+      <button type="reset">Сбросить форму</button>
+    </div>
+  </fieldset>
+</form>
+
+</body>
+</html>
